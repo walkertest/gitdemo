@@ -38,3 +38,7 @@ git branch -d branchName/git branch -d branchName(强制删除)
 git reset commmitid;
 git push -f 
 ```
+
+
+## 如何合并提交记录
+在分支上提交很多次的代码，如何将代码记录合并.
