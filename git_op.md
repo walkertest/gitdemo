@@ -42,3 +42,9 @@ git push -f
 
 ## 如何合并提交记录
 在分支上提交很多次的代码，如何将代码记录合并.
+
+
+## FAQ
+### unable to update local ref
+参考：https://cloud.tencent.com/developer/ask/37468
+删除掉本地提示报错的那个文件就好了，可能是相同的文件名或者大小写导致的.
