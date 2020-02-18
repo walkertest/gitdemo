@@ -43,6 +43,16 @@ git push -f
 ## 如何合并提交记录
 在分支上提交很多次的代码，如何将代码记录合并.
 
+## 如何设置更新github主仓库代码
+参考帖子：https://blog.csdn.net/yaya1943/article/details/54582530
+```
+git remote add tarsOrigin https://github.com/TarsCloud/TarsJava.git
+git remote -v
+git pull tarsOrigin master
+git push
+然后做通过github提交merge request即可.
+```
+
 
 ## FAQ
 ### unable to update local ref
