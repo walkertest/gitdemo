@@ -39,7 +39,7 @@ git reset commmitid;   (git reset --hard commitid 是直接回退到指定的com
 git push -f 
 
 
-git revert commitid,是指的回退指定的commitid
+git revert commitid,是指的回退指定的commitid（生成一个新的commit来回退这个变更）
 ```
 
 
