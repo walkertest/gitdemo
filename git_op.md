@@ -35,8 +35,11 @@ git branch -d branchName/git branch -d branchName(强制删除)
 
 ## 如何回滚代码
 ```
-git reset commmitid;
+git reset commmitid;   (git reset --hard commitid 是直接回退到指定的commit，将相关变更直接丢弃掉.)
 git push -f 
+
+
+git revert commitid,是指的回退指定的commitid
 ```
 
 
