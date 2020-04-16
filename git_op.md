@@ -57,6 +57,14 @@ git push
 ```
 
 
+## tag相关操作
+```
+git tag，查看当前的tag
+git tag -a tagname -m "comment" ,创建一个tag
+git push origin tagname,将tagpush到远程仓库.
+git checkout commitid -b newBranch ，基本某个tag的commitid，拉取新的分支.
+```
+
 ## FAQ
 ### unable to update local ref
 参考：https://cloud.tencent.com/developer/ask/37468
