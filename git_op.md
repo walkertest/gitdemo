@@ -40,7 +40,6 @@ git push -f
 
 
 git revert commitid,是指的回退指定的commitid（生成一个新的commit来回退这个变更）
-git revert test  //测试.
 git revert test2
 ```
 
